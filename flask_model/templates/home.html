@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('C:\Users\RAJAT DEVARAKONDA\Desktop\Data_Science\PROJECTS DEPLOYMENTS\telecome_chrun\flask_model\image.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            </style>
+    </head>
+    <body>
+        <h2>Chrun_Model</h2>
+        
+        <form method="POST" action = '/predict' >
+            <style>
+                body {
+                  background-image: url('img_girl.jpg');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: 100% 100%;
+                }
+                </style>
+            <label for="SeniorCitizen">SeniorCitizen:</label><br>
+            <input type="number" id="SeniorCitizen" name="SeniorCitizen" placeholder="SeniorCitizen" required='required'><br>
+            <label for="Partner">Partner:</label><br>
+            <input type="number" id="Partner" name="Partner" placeholder="Partner" required='required'><br>
+            <label for="Dependents">Dependents:</label><br>
+            <input type="number" id="Dependents" name="Dependents" placeholder="Dependents" required='required'><br>
+            <label for="tenure">tenure:</label><br>
+            <input type="number" id="tenure" name="tenure" placeholder="tenure" required='required'><br>
+            <label for="OnlineSecurity">OnlineSecurity:</label><br>
+            <input type="number" id="OnlineSecurity" name="OnlineSecurity" placeholder="OnlineSecurity" required='required'><br>
+            <label for="OnlineBackup">OnlineBackup:</label><br>
+            <input type="number" id="OnlineBackup" name="OnlineBackup" placeholder="OnlineBackup" required='required'><br>
+            <label for="DeviceProtection">DeviceProtection:</label><br>
+            <input type="number" id="DeviceProtection" name="DeviceProtection" placeholder="DeviceProtection" required='required'><br>
+            <label for="TechSupport">TechSupport:</label><br>
+            <input type="number" id="TechSupport" name="TechSupport" placeholder="TechSupport" required='required'><br>
+            <label for="StreamingTV">StreamingTV:</label><br>
+            <input type="number" id="StreamingTV" name="StreamingTV" placeholder="StreamingTV" required='required'><br>
+            <label for="StreamingMovies">StreamingMovies:</label><br>
+            <input type="number" id="StreamingMovies" name="StreamingMovies" placeholder="StreamingMovies" required='required'><br>
+            <label for="PaperlessBilling">PaperlessBilling:</label><br>
+            <input type="number" id="PaperlessBilling" name="PaperlessBilling" placeholder="PaperlessBilling" required='required'><br>
+            <label for="MonthlyCharges">MonthlyCharges:</label><br>
+            <input type="number" id="MonthlyCharges" name="MonthlyCharges" placeholder="MonthlyCharges" required='required'><br>
+            <label for="TotalCharges">TotalCharges:</label><br>
+            <input type="number" id="TotalCharges" name="TotalCharges" placeholder="TotalCharges" required='required'><br>
+            <label for="InternetService_DSL">InternetService_DSL:</label><br>
+            <input type="number" id="InternetService_DSL" name="InternetService_DSL" placeholder="InternetService_DSL" required='required'><br>
+            <label for="InternetService_Fiber optic">InternetService_Fiber_optic:</label><br>
+            <input type="number" id="InternetService_Fiber_optic" name="InternetService_Fiber_optic" placeholder="InternetService_Fiber_optic" required='required'><br>
+            <label for="Contract_One_year">Contract_One_year:</label><br>
+            <input type="number" id="Contract_One_year" name="Contract_One_year" placeholder="Contract_One_year" required='required'><br>
+            <label for="Contract_Two_year">Contract_Two_year:</label><br>
+            <input type="number" id="Contract_Two_year" name="Contract_Two_year" placeholder="Contract_Two_year" required='required'><br>
+            <label for="PaymentMethod_Credit_card">PaymentMethod_Credit_card:</label><br>
+            <input type="number" id="PaymentMethod_Credit_card" name="PaymentMethod_Credit_card" placeholder="PaymentMethod_Credit_card" required='required'><br>
+            <label for="PaymentMethod_Electronic">PaymentMethod_Electronic:</label><br>
+            <input type="number" id="PaymentMethod_Electronic" name="PaymentMethod_Electronic" placeholder="PaymentMethod_Electronic" required='required'><br>
+            <label for="PaymentMethod_Mailed">PaymentMethod_Mailed:</label><br>
+            <input type="number" id="PaymentMethod_Mailed" name="PaymentMethod_Mailed" placeholder="PaymentMethod_Mailed" required='required'><br><br><br>
+
+
+            <button type='submit'>Predict</button>
+        </form>
+       </form>
+    </body>
+</html>
